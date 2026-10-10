@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Alok - First Year B.Tech Computer Science Student at CIT Ranchi (JUT), Web Developer, and Java Enthusiast.">
+    <title>Alok | B.Tech CSE Student & Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome & DevIcons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-accent">&lt;</span>Alok<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+                    <li class="nav-item"><a href="#campus" class="nav-link"><i class="fa-solid fa-trophy"></i> Activities</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </button>
+                <a href="https://www.linkedin.com/in/alok-kumar-2bbba6385/" target="_blank" rel="noopener noreferrer" class="btn btn-outline nav-btn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="pulse-dot"></span> 1st Year B.Tech CSE @ CIT Ranchi (JUT)
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Alok</span> 👋
+                    </h1>
+                    <p class="hero-tagline">
+                        <span class="typing-text">B.Tech CSE Student</span> | <span class="highlight">Web Developer</span> | <span class="highlight">Java Enthusiast</span>
+                    </p>
+                    <p class="hero-description">
+                        Passionate computer science freshman actively expanding my knowledge in Data Structures & Algorithms, building modern web applications, and organizing technical campus events.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-rocket"></i> View Projects
+                        </a>
+                        <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                        <a href="https://leetcode.com/u/__alok99/" target="_blank" rel="noopener noreferrer" class="btn btn-glass">
+                            <i class="fa-solid fa-code"></i> LeetCode Profile
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">1st</div>
+                            <div class="stat-label">Year CSE @ CIT Ranchi</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Core Tech Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">DSA</div>
+                            <div class="stat-label">Active Learner</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Campus Events</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-card-wrapper">
+                        <div class="code-card">
+                            <div class="code-header">
+                                <div class="dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="code-title">Developer.java</span>
+                            </div>
+                            <div class="code-body">
+                                <pre><code><span class="keyword">public class</span> <span class="class-name">Alok</span> {
+    <span class="keyword">private String</span> college = <span class="string">"CIT Ranchi (JUT)"</span>;
+    <span class="keyword">private String</span> branch = <span class="string">"Computer Science & Engineering"</span>;
+    <span class="keyword">private String</span> github = <span class="string">"ak0497168-ops"</span>;
+    <span class="keyword">private String</span> leetcode = <span class="string">"__alok99"</span>;
+    <span class="keyword">private String[]</span> skills = {<span class="string">"Java"</span>, <span class="string">"C"</span>, <span class="string">"HTML/CSS"</span>, <span class="string">"API Integration"</span>};
+    <span class="keyword">public void</span> <span class="function">currentGoal</span>() {
+        System.out.println(<span class="string">"Mastering DSA & Modern Web Tech!"</span>);
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-java">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java Dev</span>
+                        </div>
+                        <div class="floating-badge badge-web">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>Frontend Web</span>
+                        </div>
+                        <div class="floating-badge badge-cit">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>CIT Ranchi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card glass-card shadow-hover">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3>Academic Background</h3>
+                        <p>
+                            I am a first-year <strong>B.Tech Computer Science & Engineering</strong> student at 
+                            <strong>Cambridge Institute of Technology (CIT), Ranchi</strong> (affiliated with Jharkhand University of Technology - JUT). 
+                        </p>
+                        <p>
+                            Building a strong foundation in core computer science subjects, mathematical logic, and software design fundamentals.
+                        </p>
+                    </div>
+                    <div class="about-card glass-card shadow-hover">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Technical Focus</h3>
+                        <p>
+                            Proficient in <strong>Java</strong> and <strong>C programming</strong>, with a growing focus on 
+                            <strong>Data Structures and Algorithms (DSA)</strong> problem-solving on LeetCode (<a href="https://leetcode.com/u/__alok99/" target="_blank" class="highlight">@__alok99</a>).
+                        </p>
+                        <p>
+                            Hands-on experience developing web applications using HTML5, CSS3, and REST API integration.
+                        </p>
+                    </div>
+                    <div class="about-card glass-card shadow-hover">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3>Leadership & Campus Involvement</h3>
+                        <p>
+                            Active core organizer and event planner for technical and cultural campus competitions at CIT Ranchi.
+                        </p>
+                        <p>
+                            Experienced in logistics management, team leadership, participant coordination, and event execution.
+                        </p>
+                    </div>
+                </div>
+                <!-- Education & Highlights Banner -->
+                <div class="highlights-banner glass-card">
+                    <div class="highlight-item">
+                        <div class="h-icon"><i class="fa-solid fa-building-columns"></i></div>
+                        <div>
+                            <h4>Institution</h4>
+                            <p>CIT Ranchi (JUT Affiliated)</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="h-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div>
+                            <h4>Specialization</h4>
+                            <p>Computer Science & Engineering</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="h-icon"><i class="fa-solid fa-code"></i></div>
+                        <div>
+                            <h4>LeetCode & GitHub</h4>
+                            <p>__alok99 / ak0497168-ops</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="h-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                        <div>
+                            <h4>Batch</h4>
+                            <p>First Year (2025–2029)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Proficiency</span>
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="skills-wrapper">
+                    <!-- Programming Languages & Logic -->
+                    <div class="skills-category glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon"></i>
+                            <h3>Programming & Core Logic</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-java skill-icon java"></i> Java Programming</span>
+                                    <span class="skill-percentage">Advanced Beginner</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                                <p class="skill-desc">OOPs concepts, exception handling, collections, syntax mastery.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-bug skill-icon debug"></i> Java Debugging</span>
+                                    <span class="skill-percentage">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                                <p class="skill-desc">Logical error identification, stack trace analysis, IDE debugging tools.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-c skill-icon c-lang"></i> C Language</span>
+                                    <span class="skill-percentage">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                                <p class="skill-desc">Pointers, memory allocation, procedural logic, array manipulations.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-diagram-project skill-icon dsa"></i> DSA Practice (@__alok99)</span>
+                                    <span class="skill-percentage">In Progress</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%;"></div>
+                                </div>
+                                <p class="skill-desc">Arrays, Linked Lists, Searching & Sorting algorithms on LeetCode.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Web Development -->
+                    <div class="skills-category glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-globe category-icon"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-html5 skill-icon html"></i> HTML5 & Semantic Web</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                                <p class="skill-desc">Clean structure, SEO fundamentals, accessible markup, form handling.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-css3-alt skill-icon css"></i> CSS3 & Modern Styling</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                                <p class="skill-desc">Flexbox, CSS Grid, animations, variables, responsive design.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-network-wired skill-icon api"></i> API Integration</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                                <p class="skill-desc">Fetching REST APIs, JSON parsing, asynchronous JS, error handling.</p>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-js skill-icon js"></i> JavaScript Basics</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                                <p class="skill-desc">DOM manipulation, event listeners, ES6 syntax, interactive UI.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Soft Skills & Tools -->
+                <div class="soft-skills-grid">
+                    <div class="mini-skill-card glass-card">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h4>Event Planning</h4>
+                        <p>Organizing campus tech fest competitions & logistics.</p>
+                    </div>
+                    <div class="mini-skill-card glass-card">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h4>Team Leadership</h4>
+                        <p>Coordinating volunteer squads & student participants.</p>
+                    </div>
+                    <div class="mini-skill-card glass-card">
+                        <i class="fa-brands fa-github"></i>
+                        <h4>Git & GitHub</h4>
+                        <p>Version control & public repositories @ak0497168-ops.</p>
+                    </div>
+                    <div class="mini-skill-card glass-card">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h4>Problem Solving</h4>
+                        <p>Analytical thinking for logical bug fixes & algorithm design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Hands-on Work</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: Face Recognition Attendance System -->
+                    <div class="project-card glass-card shadow-hover">
+                        <div class="project-banner project-bg-1">
+                            <div class="project-overlay">
+                                <span class="project-badge">Python / OpenCV / Java Logic</span>
+                            </div>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-face-smile-beam"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">AI / Computer Vision</span>
+                                <span class="tag">Java/Python</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                            <h3 class="project-title">Face Recognition Attendance System</h3>
+                            <p class="project-description">
+                                An automated biometric attendance tracking system that detects and logs student attendance in real-time using facial recognition technology, eliminating manual roll calls.
+                            </p>
+                            <ul class="project-highlights">
+                                <li><i class="fa-solid fa-check"></i> Real-time facial detection & matching engine</li>
+                                <li><i class="fa-solid fa-check"></i> Automatic attendance logging into database</li>
+                                <li><i class="fa-solid fa-check"></i> Reduced administrative roll call time by 90%</li>
+                            </ul>
+                            <div class="project-footer">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-project="project1">
+                                    <i class="fa-solid fa-eye"></i> Details
+                                </button>
+                                <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Code">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2: API Login System -->
+                    <div class="project-card glass-card shadow-hover">
+                        <div class="project-banner project-bg-2">
+                            <div class="project-overlay">
+                                <span class="project-badge">Web Tech / REST API</span>
+                            </div>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                            <h3 class="project-title">API Authentication & Login System</h3>
+                            <p class="project-description">
+                                A secure, responsive user authentication portal featuring asynchronous API fetching, form validation, error handling, and session state persistence.
+                            </p>
+                            <ul class="project-highlights">
+                                <li><i class="fa-solid fa-check"></i> Asynchronous API fetch for user authentication</li>
+                                <li><i class="fa-solid fa-check"></i> Client-side dynamic form validation & toast alerts</li>
+                                <li><i class="fa-solid fa-check"></i> Responsive glassmorphism UI layout</li>
+                            </ul>
+                            <div class="project-footer">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-project="project2">
+                                    <i class="fa-solid fa-eye"></i> Details
+                                </button>
+                                <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Code">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3: Campus Event Registration Portal -->
+                    <div class="project-card glass-card shadow-hover">
+                        <div class="project-banner project-bg-3">
+                            <div class="project-overlay">
+                                <span class="project-badge">Campus Event Tool</span>
+                            </div>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-ticket"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">CIT Ranchi Event</span>
+                                <span class="tag">Web UI</span>
+                                <span class="tag">Management</span>
+                            </div>
+                            <h3 class="project-title">Campus Competition Management Portal</h3>
+                            <p class="project-description">
+                                A web platform built to streamline team registrations, schedule broadcasts, and live announcements for CIT Ranchi inter-college tech and cultural competitions.
+                            </p>
+                            <ul class="project-highlights">
+                                <li><i class="fa-solid fa-check"></i> Online slot booking and team participant lists</li>
+                                <li><i class="fa-solid fa-check"></i> Real-time event schedule update timeline</li>
+                                <li><i class="fa-solid fa-check"></i> Built for CIT Ranchi student fest coordination</li>
+                            </ul>
+                            <div class="project-footer">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-project="project3">
+                                    <i class="fa-solid fa-eye"></i> Details
+                                </button>
+                                <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Code">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Campus Activities & Event Planning Section -->
+        <section class="section campus-section" id="campus">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Leadership & Community</span>
+                    <h2 class="section-title">Campus <span class="gradient-text">Activities & Event Planning</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="campus-grid">
+                    <div class="campus-card glass-card">
+                        <div class="campus-badge">Coordinator</div>
+                        <div class="campus-icon"><i class="fa-solid fa-gamepad"></i></div>
+                        <h3>CIT Ranchi Tech Fest Competition</h3>
+                        <p>
+                            Organized student coding and gaming competitions. Handled rules enforcement, stage management, registration desks, and participant queries.
+                        </p>
+                        <div class="campus-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> CIT Ranchi Campus</span>
+                            <span><i class="fa-solid fa-calendar"></i> 2025</span>
+                        </div>
+                    </div>
+                    <div class="campus-card glass-card">
+                        <div class="campus-badge">Organizer</div>
+                        <div class="campus-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <h3>Freshman Coding Workshop</h3>
+                        <p>
+                            Assisted senior mentors in introducing Java syntax and HTML fundamentals to first-year student peers, encouraging early programming adoption.
+                        </p>
+                        <div class="campus-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> CS Department Lab</span>
+                            <span><i class="fa-solid fa-calendar"></i> 2025</span>
+                        </div>
+                    </div>
+                    <div class="campus-card glass-card">
+                        <div class="campus-badge">Active Member</div>
+                        <div class="campus-icon"><i class="fa-solid fa-hands-holding-circle"></i></div>
+                        <h3>Student Technical Society</h3>
+                        <p>
+                            Active volunteer contributing to weekly DSA problem discussions, peer debugging sessions, and campus seminar setups.
+                        </p>
+                        <div class="campus-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> CIT Ranchi</span>
+                            <span><i class="fa-solid fa-calendar"></i> Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Let's Connect</span>
+                    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-info">
+                        <div class="contact-card glass-card shadow-hover">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Direct Email</h3>
+                                <p>Feel free to write to me for collaborations, projects, or campus inquiries.</p>
+                                <div class="email-box">
+                                    <span id="email-text">alok.cit.cse@gmail.com</span>
+                                    <button class="copy-btn" id="copy-email-btn" title="Copy Email">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-card glass-card shadow-hover">
+                            <div class="contact-icon linkedin-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>LinkedIn Profile</h3>
+                                <p>Connect with me on LinkedIn to view my background and career updates.</p>
+                                <a href="https://www.linkedin.com/in/alok-kumar-2bbba6385/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn">
+                                    <i class="fa-brands fa-linkedin"></i> Visit My LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-card glass-card shadow-hover">
+                            <div class="contact-icon github-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>GitHub Profile</h3>
+                                <p>Explore my source code, project repositories, and commits.</p>
+                                <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" class="social-btn github-btn">
+                                    <i class="fa-brands fa-github"></i> @ak0497168-ops
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-card glass-card shadow-hover">
+                            <div class="contact-icon leetcode-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>LeetCode Profile</h3>
+                                <p>Follow my DSA problem-solving progress and problem submission stats.</p>
+                                <a href="https://leetcode.com/u/__alok99/" target="_blank" rel="noopener noreferrer" class="social-btn leetcode-btn">
+                                    <i class="fa-solid fa-terminal"></i> @__alok99
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-card glass-card shadow-hover">
+                            <div class="contact-icon location-icon">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>CIT Ranchi (Jharkhand University of Technology - JUT), Namkum, Ranchi, Jharkhand - 834010</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="contact-form-container glass-card shadow-hover">
+                        <h3>Send Me a Message</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-solid fa-envelope input-icon"></i>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-solid fa-tag input-icon"></i>
+                                    <input type="text" id="subject" name="subject" placeholder="Project Collaboration / Event Inquiry" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <div class="input-with-icon text-area-icon">
+                                    <i class="fa-solid fa-comment-dots input-icon"></i>
+                                    <textarea id="message" name="message" rows="4" placeholder="Hello Alok, I would like to connect with you regarding..." required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                        <div id="form-status" class="form-status"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#hero" class="logo">
+                    <span class="logo-accent">&lt;</span>Alok<span class="logo-accent">/&gt;</span>
+                </a>
+                <p>1st Year B.Tech CSE Student @ CIT Ranchi (JUT). Passionate about web development, Java software design, and DSA.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Social Connect</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alok-kumar-2bbba6385/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ak0497168-ops" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://leetcode.com/u/__alok99/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                    <a href="mailto:alok.cit.cse@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; <span id="year">2026</span> Alok. All Rights Reserved. Crafted for CIT Ranchi (JUT) CS Portfolio.</p>
+            <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- Project Details Modal Popup -->
+    <div class="modal-backdrop" id="project-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-body-content">
+                <!-- Dynamically populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
